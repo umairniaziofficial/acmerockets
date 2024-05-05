@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Acme Electronics</title>
+  </head>
+
+  <body class="dark:bg-black dark:text-white min-h-screen">
+    <header
+      class="bg-teal-700 h-auto sticky top-0 z-10 mb-12 text-white dark:text-black"
+    >
+      <section class="max-w-4xl mx-auto flex p-4 items-center justify-between">
+        <h1 class="text-3xl font-medium">🚀 Achme</h1>
+        <div>
+          <button
+            id="menu-hamburger"
+            class="text-4xl sm:hidden focus:outline-none"
+          >
+            &#9776;
+          </button>
+          <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+            <a href="#rockets" class="hover:opacity-60 font-medium"
+              >Our Rockets</a
+            >
+            <a href="#testimonial" class="hover:opacity-60 font-medium"
+              >Testimonial</a
+            >
+            <a href="#contact" class="hover:opacity-60 font-medium">Contact</a>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main class="max-w-4xl mx-auto mb-12">
+      <section
+        id="hero"
+        class="flex flex-col-reverse justify-center sm:flex-row px-6 items-center gap-8 mb-12"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+          >
+            We Boldy Go <span class="text-indigo-300">Where No Rocket</span> Has
+            Gone Before...
+          </h2>
+          <p
+            class="max-w-md sm:text-2xl mt-4 text-center sm:text-left text-slate-500"
+          >
+            We're building rockets for thenext century today. From the moon to
+            Mars, Jupiter and beyond.
+          </p>
+          <p
+            class="max-w-md sm:text-1xl mt-4 text-center sm:text-left text-slate-500"
+          >
+            Think Achme Rocket.
+          </p>
+        </article>
+        <img src="./images/0.png" alt="" class="sm:w-1/2 contrast-125" />
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
+    </main>
+
+    <div class="max-w-4xl mx-auto my-12 scroll-m-32" id="rockets">
+      <section id="hero" class="flex flex-col justify-center px-6 gap-12 my-12">
+        <h2
+          class="max-w-md mx-auto text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+        >
+          Our Rockets
+        </h2>
+        <div
+          class="max-w-4xl mx-auto flex justify-center items-center flex-col sm:flex-row gap-16"
+        >
+          <div
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid dark:border-gray-200 dark:bg-black dark:text-white bg-white text-black border-black py-6 px-2 rounded-3xl shadow-xl"
+          >
+            <img src="images/1.png" alt="" class="mb-6" />
+            <h1 class="text-2xl font-bold">Basic</h1>
+            <p class="text-center text-gray-500 mt-5 font-medium">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+          <div
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid dark:border-gray-200 dark:bg-black dark:text-white bg-white text-black border-black py-6 px-2 rounded-3xl shadow-xl"
+          >
+            <img src="images/2.png" alt="" class="mb-6" />
+            <h1 class="text-2xl font-bold">Advance</h1>
+            <p class="text-center text-gray-500 mt-5 font-medium">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+          <div
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid dark:border-gray-200 dark:bg-black dark:text-white bg-white text-black border-black py-6 px-2 rounded-3xl shadow-xl"
+          >
+            <img src="images/3.png" alt="" class="mb-6" />
+            <h1 class="text-2xl font-bold">Premium</h1>
+            <p class="text-center text-gray-500 mt-5 font-medium">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white w-1/2 mt-12" />
+    </div>
+
+    <div class="max-w-4xl mx-auto my-12 scroll-m-32" id="testimonial">
+      <section id="hero" class="flex flex-col justify-center px-6 gap-12 my-12">
+        <h2
+          class="max-w-md mx-auto text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+        >
+          Testimonial
+        </h2>
+        <div
+          class="max-w-4xl mx-auto flex justify-center items-center flex-col sm:flex-col gap-20"
+        >
+          <div class="parent-container relative">
+            <p
+              class="text-1xl md:text-xl lg:text-2xl before:content-['\201C'] dark:before:opacity-25 before:dark:text-gray-300 before:absolute before:top-0 before:text-9xl before:-translate-x-14 before:font-serif after:font-serif after:content-['\201C'] before:text-white after:dark:text-white after:absolute after:bottom-0 after:right-0 after:text-9xl dark:after:opacity-25 after:-translate-x-2 after:-translate-y-12 after:rotate-180 bg-teal-600 p-6 text-white pl-16 mb-6 rounded shadow-lg before:opacity-25 after:opacity-25 after:text-white"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              veritatis placeat provident mollitia quos, reiciendis cupiditate
+              doloremque illum. Voluptates numquam necessitatibus quibusdam cum
+              at consequuntur vitae aspernatur nesciunt ex pariatur?
+            </p>
+            <cite class="text-sm md:text-base lg:text-lg font-medium"
+              >&mdash; Lucile Cole</cite
+            >
+          </div>
+          <div class="parent-container relative">
+            <p
+              class="text-1xl md:text-xl lg:text-2xl before:content-['\201C'] dark:before:opacity-25 before:dark:text-gray-300 before:absolute before:top-0 before:text-9xl before:-translate-x-14 before:font-serif after:font-serif after:content-['\201C'] before:text-white after:dark:text-white after:absolute after:bottom-0 after:right-0 after:text-9xl dark:after:opacity-25 after:-translate-x-2 after:-translate-y-12 after:rotate-180 bg-teal-600 p-6 text-white pl-16 mb-6 rounded shadow-lg before:opacity-25 after:opacity-25 after:text-white"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              veritatis placeat provident mollitia quos, reiciendis cupiditate
+              doloremque illum. Voluptates numquam necessitatibus quibusdam cum
+              at consequuntur vitae aspernatur nesciunt ex pariatur?
+            </p>
+            <cite class="text-sm md:text-base lg:text-lg font-medium"
+              >&mdash; Jeffrey Phelps</cite
+            >
+          </div>
+          <div class="parent-container relative">
+            <p
+              class="text-1xl md:text-xl lg:text-2xl before:content-['\201C'] dark:before:opacity-25 before:dark:text-gray-300 before:absolute before:top-0 before:text-9xl before:-translate-x-14 before:font-serif after:font-serif after:content-['\201C'] before:text-white after:dark:text-white after:absolute after:bottom-0 after:right-0 after:text-9xl dark:after:opacity-25 after:-translate-x-2 after:-translate-y-12 after:rotate-180 bg-teal-600 p-6 text-white pl-16 mb-6 rounded shadow-lg before:opacity-25 after:opacity-25 after:text-white"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+              veritatis placeat provident mollitia quos, reiciendis cupiditate
+              doloremque illum. Voluptates numquam necessitatibus quibusdam cum
+              at consequuntur vitae aspernatur nesciunt ex pariatur?
+            </p>
+            <cite class="text-sm md:text-base lg:text-lg font-medium"
+              >&mdash; Lucinda Davidson</cite
+            >
+          </div>
+        </div>
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white w-1/2 mt-12" />
+    </div>
+
+    <div class="p-6 my-12 scroll-mt-16 scroll-m-12" id="contact">
+      <h2
+        class="max-w-md mx-auto text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white flex items-center justify-center"
+      >
+        Contact us
+      </h2>
+      <form action="#" class="max-w-4xl mx-auto flex flex-col itemsleft gap-4">
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          required
+          minlength="3"
+          maxlength="60"
+          placeholder="Your Subject"
+          class="w-full text-sm sm:text-2xl p-3 rounded-xl border-solid border-slate-500 dark:bg-black dark:text-white border-2 outline-none text-black font-medium mt-12"
+        />
+
+        <textarea
+          name="textarea"
+          required
+          minlength="10"
+          maxlength="200"
+          class="w-full text-sm sm:text-2xl p-3 rounded-xl border-solid border-slate-500 dark:bg-black border-2 outline-none text-black mt-4 mb-4 font-medium"
+          rows="10"
+          placeholder="Enter your meassage here..."
+        ></textarea>
+        <button
+          type="submit"
+          class="dark:bg-slate-700 py-2 rounded-xl text-2xl shadow-lg bg-teal-600 font-bold text-white hover:opacity-80"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+
+    <div class="p-6 mt-12 scroll-mt-16 bg-teal-700">
+      <div
+        class="max-w-4xl mx-auto text-smm sm:text-3xl flex flex-col itemsleft gap-4 dark:text-black dark:font-bold"
+      >
+        <footer
+          class="footer bg-first-color-dark text-first-color-lighten text-gray-900"
+        >
+          <div class="footer__container bd-container pt-5 text-center" relative>
+            <h2 class="footer__title text-xl font-semibold mb-6">
+              Nizzy Codes
+            </h2>
+            <p class="footer__description mb-6">
+              I am Nizzy and this is Demo, consult me here.
+            </p>
+
+            <div class="footer__social mb-6">
+              <a
+                href="https://www.linkedin.com/in/nizzypedia/"
+                class="footer__link text-first-color-lighten mr-4"
+                ><i
+                  class="bx bxl-linkedin text-2xl hover:scale-125 text-blue-300"
+                ></i
+              ></a>
+              <a
+                href="https://github.com/umairniaziofficial"
+                class="footer__link text-first-color-lighten mr-4 hover:scale-125"
+                ><i
+                  class="bx bxl-github text-2xl hover:scale-125 text-gray-200"
+                ></i
+              ></a>
+            </div>
+            <p class="footer__copy text-sm">
+              &copy; 2024 Nizzy. All right reserved
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
