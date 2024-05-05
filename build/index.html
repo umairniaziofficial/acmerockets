@@ -13,10 +13,10 @@
 
   <body class="dark:bg-black dark:text-white min-h-screen">
     <header
-      class="bg-teal-700 h-auto sticky top-0 z-10 mb-12 text-white dark:text-black"
+      class="bg-teal-700 h-auto sticky top-0 z-10 mb-12 text-white dark:text-white"
     >
       <section class="max-w-4xl mx-auto flex p-4 items-center justify-between">
-        <h1 class="text-3xl font-medium">🚀 Achme</h1>
+        <h1 class="text-3xl font-bold">🚀 Achme</h1>
         <div>
           <button
             id="menu-hamburger"
@@ -24,16 +24,36 @@
           >
             &#9776;
           </button>
-          <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
-            <a href="#rockets" class="hover:opacity-60 font-medium"
-              >Our Rockets</a
-            >
-            <a href="#testimonial" class="hover:opacity-60 font-medium"
-              >Testimonial</a
-            >
-            <a href="#contact" class="hover:opacity-60 font-medium">Contact</a>
+          <nav
+            class="hidden sm:block space-x-8 text-xl font-bold"
+            aria-label="main"
+          >
+            <a href="#rockets" class="hover:opacity-60">Our Rockets</a>
+            <a href="#testimonial" class="hover:opacity-60">Testimonial</a>
+            <a href="#contact" class="hover:opacity-60">Contact</a>
           </nav>
-        </div>
+        </div>  
+      </section>
+      <section
+        id="mobile-menu"
+        class="absolute top-0 bg-black w-full text-5xl flex-col justify-center hidden origin-top animate-open-menu"
+      >
+        <button class="text-8xl self-end px-6">&times;</button>
+        <nav class="flex flex-col min-h-screen items-center py-8">
+          <a href="#hero" class="w-full text-center py-6 hover:opacity-70"
+            >Home</a
+          >
+          <a href="#rockets" class="w-full text-center py-6 hover:opacity-70"
+            >Rockets</a
+          >
+          <a href="#rockets" class="w-full text-center py-6 hover:opacity-70"
+            >Testimonial</a
+          >
+          <a href="#rockets" class="w-full text-center py-6 hover:opacity-70"
+            >Contact</a
+          >
+         
+        </nav>
       </section>
     </header>
 
@@ -200,10 +220,10 @@
 
     <div class="p-6 mt-12 scroll-mt-16 bg-teal-700">
       <div
-        class="max-w-4xl mx-auto text-smm sm:text-3xl flex flex-col itemsleft gap-4 dark:text-black dark:font-bold"
+        class="max-w-4xl mx-auto text-smm sm:text-3xl flex flex-col itemsleft gap-4 dark:font-bold"
       >
         <footer
-          class="footer bg-first-color-dark text-first-color-lighten text-gray-900"
+          class="footer bg-first-color-dark text-first-color-lighten dark:text-white text-black"
         >
           <div class="footer__container bd-container pt-5 text-center" relative>
             <h2 class="footer__title text-xl font-semibold mb-6">
@@ -236,5 +256,6 @@
         </footer>
       </div>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
